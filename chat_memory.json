@@ -1,0 +1,65 @@
+[
+    {
+        "user_id": "user123",
+        "user": "Hello, how are you?",
+        "bot": "Hello! I'm an AI and don't have feelings, but I'm here and ready to help you. How can I assist you today?"
+    },
+    {
+        "user_id": "user123",
+        "user": "Hello, whats my name?",
+        "bot": "I'm sorry, I don't have enough information to answer your question. I don't know your name."
+    },
+    {
+        "user_id": "user123",
+        "user": "My name is Tejash, you can call me Yash?",
+        "bot": "Sure, you can call me Yash."
+    },
+    {
+        "user_id": "user123",
+        "user": "whats my name?",
+        "bot": "I'm an AI and I don't have a name."
+    },
+    {
+        "user_id": "user123",
+        "user": "I am talking about my name?",
+        "bot": "I'm an assistant designed to help you. I don't have a personal name. You can call me Assistant. How can I assist you today?"
+    },
+    {
+        "user_id": "user123",
+        "user": "I'm felling depressed?",
+        "bot": "I'm really sorry that you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life."
+    },
+    {
+        "user_id": "user123",
+        "user": "am i Good?",
+        "bot": "I don't have feelings, so I can't feel better or good. I'm just a computer program designed to assist you. Is there anything else I can help you with?"
+    },
+    {
+        "user_id": "user123",
+        "user": "Hey what is my name?",
+        "bot": "I'm sorry, but I don't have the information to answer your question. I'm here to provide information and assistance, but I need to know your name first. Could you please tell me your name?"
+    },
+    {
+        "user_id": "user123",
+        "user": "My name is Tejash but you can call me Yash?",
+        "bot": "You can call me Tejash."
+    },
+    {
+        "user_id": "user123",
+        "user": "Hey what is my name?",
+        "bot": "I don't have the information to answer your question, I'm sorry."
+    },
+    {
+        "user_id": "user123",
+        "user": "Hey, Tejash here",
+        "bot": "I'm an AI language model, so I don't have a personal name. You can call me Assistant. How can I assist you today?"
+    },
+    {
+        "user": "Can you help me?",
+        "bot": "Hello Alex! I'm here to help you with any questions you have. It seems there was some confusion in a previous response, I'm sorry if that caused any confusion. I'm here to provide information and assistance to you. How can I help you today, Alex?"
+    },
+    {
+        "user": "Can you help me?",
+        "bot": "Based on the conversation, your name is Alex. When you first introduced yourself, you said \"Hello, I am Alex!\" and I responded by addressing you as Alex. Although I mentioned that I am a helpful assistant earlier in the conversation, I was referring to myself, not you. I apologize for any confusion."
+    }
+]
