@@ -1,14 +1,24 @@
 fastapi
 uvicorn
+pymongo
 motor
+certifi
 pydantic
+python-dotenv
+
+# LangChain + Embeddings + Vector Store
 langchain
+langchain-community
 langchain-google-genai
 langchain-huggingface
-langchain-chroma
 langchain-groq
+langchain-chroma
 chromadb
 sentence-transformers
+
+# PDF
 PyPDF2
-pymongo
-python-dotenv
+reportlab
+
+# Google Gemini
+google-generativeai
