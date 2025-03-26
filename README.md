@@ -61,9 +61,17 @@ In a world filled with stress and anxiety, NeuroWell offers:
 
 ---
 
-## 📂 Folder Structure
+NeuroWell/
+├── llama.py              # 🧠 FastAPI chatbot logic
+├── generate_report.py    # 📄 LLM-driven PDF report generator
+├── requirements.txt      # 📦 Python dependencies
+├── .env.example          # 🔐 Sample environment config
+├── start.sh              # 🚀 Start script for Render
+├── Data/                 # 📁 Sample PDF files
+├── chroma_db/            # 🧠 Chroma vector DB storage
+├── Frontend/             # 🎮 UI with relaxation games and sounds
+└── README.md             # 📘 Project documentation
 
-<pre> NeuroWell/ ├── llama.py # 🧠 FastAPI chatbot logic ├── generate_report.py # 📄 LLM-driven PDF report generator ├── requirements.txt # 📦 Python dependencies ├── .env.example # 🔐 Sample environment config ├── start.sh # 🚀 Start script for Render ├── Data/ # 📁 Sample PDF files ├── chroma_db/ # 🧠 Chroma vector DB storage ├── Frontend/ # 🎮 UI with relaxation games and sounds └── README.md # 📘 Project documentation </pre>
 
 
 
@@ -157,8 +165,8 @@ Team	User Auth Backend, Frontend Relaxation UI
 📎 Useful Links
 Component	Link
 🌐 Frontend	coming soon
-⚙️ Backend API	https://neurowell-backend.onrender.com/chat
-📄 PDF Report	https://neurowell-backend.onrender.com/report/:userId
+⚙️ Backend API	/chat
+📄 PDF Report	/report/:userId
 📜 License
 
 This project is licensed under the MIT License.
