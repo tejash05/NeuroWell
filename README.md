@@ -63,7 +63,7 @@ In a world filled with stress and anxiety, NeuroWell offers:
 
 ## 📂 Folder Structure
 
-<pre> NeuroWell/ ├── llama.py # 🧠 FastAPI chatbot logic ├── generate_report.py # 📄 LLM-driven PDF report generator (Gemini) ├── requirements.txt # 📦 Python dependencies ├── .env.example # 🔐 Sample environment variable file ├── start.sh # 🚀 Startup script for Render deployment ├── Data/ # 📁 Sample PDF documents for testing ├── chroma_db/ # 🧠 Chroma vector database for retrieval ├── Frontend/ # 🎨 React-based UI with relaxation simulations │ ├── public/ │ ├── src/ │ └── package.json └── README.md # 📘 Project documentation </pre>
+<pre> NeuroWell/ ├── llama.py # 🧠 FastAPI chatbot logic ├── generate_report.py # 📄 LLM-driven PDF report generator ├── requirements.txt # 📦 Python dependencies ├── .env.example # 🔐 Sample environment config ├── start.sh # 🚀 Start script for Render ├── Data/ # 📁 Sample PDF files ├── chroma_db/ # 🧠 Chroma vector DB storage ├── Frontend/ # 🎮 UI with relaxation games and sounds └── README.md # 📘 Project documentation </pre>
 
 
 
