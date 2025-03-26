@@ -61,17 +61,20 @@ In a world filled with stress and anxiety, NeuroWell offers:
 
 ---
 
-NeuroWell/
-├── llama.py              # 🧠 FastAPI chatbot logic
-├── generate_report.py    # 📄 LLM-driven PDF report generator
-├── requirements.txt      # 📦 Python dependencies
-├── .env.example          # 🔐 Sample environment config
-├── start.sh              # 🚀 Start script for Render
-├── Data/                 # 📁 Sample PDF files
-├── chroma_db/            # 🧠 Chroma vector DB storage
-├── Frontend/             # 🎮 UI with relaxation games and sounds
-└── README.md             # 📘 Project documentation
+### 📁 Folder Structure
 
+```shell
+NeuroWell/
+    ├── llama.py              # 🧠 FastAPI chatbot logic
+    ├── generate_report.py    # 📄 LLM-driven PDF report generator
+    ├── requirements.txt      # 📦 Python dependencies
+    ├── .env.example          # 🔐 Sample environment config
+    ├── start.sh              # 🚀 Start script for Render
+    ├── Data/                 # 📁 Sample PDF files
+    ├── chroma_db/            # 🧠 Chroma vector DB storage
+    ├── Frontend/             # 🎮 UI with relaxation games and sounds
+    └── README.md             # 📘 Project documentation
+```
 
 
 
