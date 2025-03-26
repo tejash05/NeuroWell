@@ -158,15 +158,23 @@ curl -X POST https://neurowell-backend.onrender.com/chat \
 
     Integration with smart wearables for emotional tracking
 
-✨ Contributors
-Name	Role
-Tejash Tarun	AI Backend, Report System, Gemini Integration
-Team	User Auth Backend, Frontend Relaxation UI
-📎 Useful Links
-Component	Link
-🌐 Frontend	coming soon
-⚙️ Backend API	/chat
-📄 PDF Report	/report/:userId
-📜 License
+### ✨ Contributors
 
-This project is licensed under the MIT License.
+| Name            | Role                                              |
+|-----------------|---------------------------------------------------|
+| **Tejash Tarun**| AI Backend, Report System, Gemini Integration     |
+| **Team**        | User Auth Backend, Frontend Relaxation UI         |
+
+
+### 📎 Useful Links
+
+| Component        | Link                                                                 |
+|------------------|----------------------------------------------------------------------|
+| 🌐 **Frontend**    | _coming soon_                                                       |
+| ⚙️ **Backend API** | [https://neurowell-backend.onrender.com/chat](https://neurowell-backend.onrender.com/chat) |
+| 📄 **PDF Report**  | [https://neurowell-backend.onrender.com/report/:userId](https://neurowell-backend.onrender.com/report/:userId) |
+
+
+### 📜 License
+
+This project is licensed under the **MIT License**.
