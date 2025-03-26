@@ -41,16 +41,12 @@ In a world filled with stress and anxiety, NeuroWell offers:
 
 ---
 
-## 🧰 Tools Used
-
-| Tool         | Purpose                              |
-|--------------|---------------------------------------|
-| **PyCharm**  | Python backend development (FastAPI)  |
-| **Postman**  | API testing and response validation   |
-| **Jupyter**  | ML model experiments + testing        |
-| **Git**      | Version control locally               |
-| **GitHub**   | Code hosting + collaboration          |
-| **Render**   | Deployment of the FastAPI backend     |
+## 🧰 Tools Used  
+[![PyCharm](https://img.shields.io/badge/PyCharm-143?style=for-the-badge&logo=pycharm&logoColor=white&color=black)](https://www.jetbrains.com/pycharm/)  
+[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)  
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)  
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 
 ---
 
@@ -67,7 +63,9 @@ In a world filled with stress and anxiety, NeuroWell offers:
 
 ## 📂 Folder Structure
 
-NeuroWell/ ├── llama.py # FastAPI chatbot logic ├── generate_report.py # LLM-driven PDF report generator ├── requirements.txt ├── .env.example ├── start.sh # Start script for Render ├── Data/ # Sample files for document analysis ├── chroma_db/ # Vector DB storage ├── Frontend/ # UI with calming simulations
+<pre> NeuroWell/ ├── llama.py # 🧠 FastAPI chatbot logic ├── generate_report.py # 📄 LLM-driven PDF report generator (Gemini) ├── requirements.txt # 📦 Python dependencies ├── .env.example # 🔐 Sample environment variable file ├── start.sh # 🚀 Startup script for Render deployment ├── Data/ # 📁 Sample PDF documents for testing ├── chroma_db/ # 🧠 Chroma vector database for retrieval ├── Frontend/ # 🎨 React-based UI with relaxation simulations │ ├── public/ │ ├── src/ │ └── package.json └── README.md # 📘 Project documentation </pre>
+
+
 
 
 ---
@@ -93,27 +91,27 @@ pip install -r requirements.txt
 🔹 4. Set Environment Variables
 
 Create a .env file and add:
-
+```bash
 GEMINI_API_KEY=your_gemini_key
 MONGO_URI=your_mongodb_uri
 GROQ_API_KEY=optional
-
+```
     You can use .env.example as a template
 
 🔹 5. Start the FastAPI Server
-
+```bash 
 python llama.py
 # OR with Uvicorn
 ./start.sh
-
+```
 🔄 API Endpoints
 🧠 POST /chat
-
+``` bash
 {
   "user_id": "user123",
   "message": "I'm feeling very anxious and sad lately."
 }
-
+```
     Returns an empathetic AI response
 
     Stores chat history in MongoDB
@@ -137,11 +135,11 @@ python llama.py
     💡 Designed to feel immersive like therapy simulation, not just frontend
 
 🧪 Sample Test
-
+```bash
 curl -X POST https://neurowell-backend.onrender.com/chat \
      -H "Content-Type: application/json" \
      -d '{"user_id": "test123", "message": "I feel overwhelmed with life."}'
-
+```
 🔮 Future Scope
 
     Counselor dashboard to review reports
